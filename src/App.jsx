@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 
+import Messages from './containers/Messages.jsx';
+
 class App extends Component {
   render() {
     return (
-      <h1>Hello React :)</h1>
+      <Messages />
     );
   }
 }
+
 export default App;
